@@ -4,16 +4,16 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(17,17,17);
+  background-color: #F5F5F5;
 }
 body {
-  background-color: rgb(10,10,10);
+  background-color: #C7C7C7;
 }
 a {
-  color: lightsalmon;
+  color: #57D657;
 }
 h1,h2,h3,h4 {
-  color: white;
+  color: black;
   padding-left: 10px;
 }
 * {box-sizing: border-box}
@@ -35,7 +35,7 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -51,12 +51,12 @@ img {vertical-align: middle;}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(255, 160, 122, 0.5);
+  background-color: #32CD32;
 }
 
 /* Caption text */
 .caption {
-  color: #f2f2f2;
+  color: white;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -93,10 +93,10 @@ img {vertical-align: middle;}
 }
 
 .active {
-  background-color: white;
+  background-color: #F182FF;
 }
 .dot:hover {
-    background-color: lightsalmon;
+    background-color: #175E17;
   }
 
 /* Fading animation */
@@ -120,7 +120,7 @@ img {vertical-align: middle;}
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(3,3,3);
+    background-color: #A1E8A1;
 }
 
 .nav-list li {
@@ -131,7 +131,7 @@ img {vertical-align: middle;}
 
 .nav-list li a {
     display: block;
-    color: #ffffff;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -139,7 +139,7 @@ img {vertical-align: middle;}
 }
 
 .nav-list li a:hover {
-    background-color: lightsalmon;
+    background-color: #32CD32;
     opacity: 80%;
     transition: 0.3s;
 }
